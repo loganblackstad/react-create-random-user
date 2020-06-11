@@ -1,0 +1,59 @@
+.UserCard {
+  /* border: solid 1px grey;
+  border-radius: 5px;
+  box-shadow: grey;
+  padding: 10px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  display: inline-block; */
+}
+
+.userButton {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userCard {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.userPicture {
+  margin: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+/* .imageDiv {
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 5px;
+} */
+
+.contentDiv {
+  align-items: flex-start;
+  text-align: start;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 0;
+}

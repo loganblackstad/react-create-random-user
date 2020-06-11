@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import UserCard from "./components/UserCard.jsx";
+import Stepper from "./components/Stepper.jsx";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="App-title">
+          <b>Generate Random User</b>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="App-subtitle">Click a box to generate a random user</p>
       </header>
+      <div>
+        <Stepper />
+        <UserCard />
+        <UserCard />
+        <UserCard />
+      </div>
     </div>
   );
 }
